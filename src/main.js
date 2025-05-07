@@ -6,9 +6,9 @@ let config = {
     render: {
         pixelArt: true  
     },
-    width: 640,         
-    height: 640,
-    scene: [GalleryShooter]
+    width: 690,         
+    height: 250,
+    scene: [TitleScreen, GalleryShooter, VictoryScreen]
 }
 
 const game = new Phaser.Game(config);
